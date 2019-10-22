@@ -1,0 +1,53 @@
+.favHead {
+    text-align: center;
+    background: lightgray;
+    padding-bottom: 30px;
+    margin-bottom: 2%;
+}
+
+#favHead {
+    font-family: 'Nova Flat';
+    font-size: 5vw;
+    color: rgb(255, 196, 0);
+    padding-top: 20px;
+    text-shadow: 3px 3px 3px black;
+}
+
+#play {
+    float: left;
+    max-width: 11%;
+    height: auto;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+#subtitle {
+    
+}
+
+#link {
+    text-align: right;
+    text-decoration: none;
+    background-color: rgba(24, 23, 109, 0.637);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    padding: 10px;
+}
+
+#link:hover {
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px 1px white;
+}
+
+.fas, .fa-trash-alt {
+    font-size: 20px;
+}
+
+.tableData {
+    text-align: center;
+}
+
+#link {
+    text-decoration: none;
+}

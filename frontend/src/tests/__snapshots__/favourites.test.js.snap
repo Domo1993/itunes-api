@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="mainDiv"
+>
+  <header
+    id="mediaHead"
+  >
+    <img
+      alt="play button"
+      className="playImage"
+      id="play"
+      src="redplay.png"
+    />
+    <h1
+      id="media"
+    >
+      YOUR MEDIA
+    </h1>
+    <p
+      id="subtitle"
+    >
+      Songs, Music Videos, Movies, and more... 
+    </p>
+    <a
+      className="links"
+      href="/Favourites_list"
+    >
+      Your Favourites
+    </a>
+  </header>
+  <br />
+  <form
+    className="form"
+  >
+    <p
+      id="help"
+    >
+      Use the dropdown menu to select a media type
+    </p>
+    <input
+      name="search"
+      onChange={[Function]}
+      placeholder="Search"
+      type="text"
+    />
+    <select
+      name="media_type"
+      onChange={[Function]}
+    >
+      <option
+        value="song"
+      >
+        Song 
+      </option>
+      <option
+        value="musicVideo"
+      >
+        Music Video 
+      </option>
+      <option
+        value="movie"
+      >
+        Movie 
+      </option>
+      <option
+        value="tvEpisode"
+      >
+        Tv Episodes 
+      </option>
+      <option
+        value="audiobook"
+      >
+        Audio Book 
+      </option>
+    </select>
+    <button
+      id="btn1"
+      onClick={[Function]}
+      type="submit"
+      value="Submit"
+    >
+      Search
+    </button>
+  </form>
+  <div
+    className="dataTableDiv"
+  >
+    <table
+      className="dataTable"
+      id="mainTable"
+    />
+  </div>
+   
+</div>
+`;

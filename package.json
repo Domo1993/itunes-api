@@ -1,0 +1,25 @@
+{
+  "name": "task-19",
+  "version": "1.0.0",
+  "description": "itunes api stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/itunesAPI.test.js",
+    "start": "nodemon app.js",
+    "heroku-postbuild": "cd frontend && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
+  },
+  "author": "Dominic Windvogel",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.21.1",
+    "isomorphic-fetch": "^2.2.1",
+    "nodemon": "^1.19.4"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2"
+  }
+}
