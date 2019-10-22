@@ -5,6 +5,7 @@ import parse from 'html-react-parser';					// cleaning the json files text's rea
 // Bootstrap imports
 import DescriptionModal from './DescriptionModal.js';
 import VideoModal from './VideoModal.js';
+import { NavLink } from 'react-router-dom';
 
 class Favourites extends Component {
 	constructor(props){
@@ -59,7 +60,7 @@ class Favourites extends Component {
 		<div>
 			<header className="favHead">
 				<h1 id="favHead">Your Favourites</h1>
-				<a id="link" href="/">Home</a>
+				<NavLink id="link" to="/">Home</NavLink>
 			</header>
 
 			<table>
