@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
 // cleaning the json files text's readability
 import parse from 'html-react-parser';
 // Importing components
@@ -102,7 +103,7 @@ class YourMedia extends Component {
                     <img className="playImage" id="play" src={play} alt="play button"/>
                     <h1 id="media" >YOUR MEDIA</h1>
                     <p id="subtitle">Songs, Music Videos, Movies, and more... </p>
-                    <a className="links" href="/Favourites_list">Your Favourites</a>
+                    <NavLink className="links" to="/Favourites_list">Your Favourites</NavLink>
                 </header>
 
                 <br/>
